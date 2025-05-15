@@ -1,0 +1,5 @@
+android.support.v4.provider.DocumentFile
+android.support.v4.provider.DocumentsContractApi19
+android.support.v4.provider.RawDocumentFile
+android.support.v4.provider.SingleDocumentFile
+android.support.v4.provider.TreeDocumentFile

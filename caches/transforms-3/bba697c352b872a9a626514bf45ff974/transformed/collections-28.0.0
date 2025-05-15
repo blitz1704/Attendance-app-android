@@ -1,0 +1,17 @@
+android.support.v4.util.ArrayMap
+android.support.v4.util.ArrayMap$1
+android.support.v4.util.ArraySet
+android.support.v4.util.ArraySet$1
+android.support.v4.util.CircularArray
+android.support.v4.util.CircularIntArray
+android.support.v4.util.ContainerHelpers
+android.support.v4.util.LongSparseArray
+android.support.v4.util.LruCache
+android.support.v4.util.MapCollections
+android.support.v4.util.MapCollections$ArrayIterator
+android.support.v4.util.MapCollections$EntrySet
+android.support.v4.util.MapCollections$KeySet
+android.support.v4.util.MapCollections$MapIterator
+android.support.v4.util.MapCollections$ValuesCollection
+android.support.v4.util.SimpleArrayMap
+android.support.v4.util.SparseArrayCompat

@@ -1,0 +1,109 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/clg3"
+    android:padding="20dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <!-- Form Title -->
+        <TextView
+            android:id="@+id/textViewFormName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="20dp"
+            android:text="Main Menu"
+            android:textColor="#FFFFFF"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:fontFamily="@font/bebas_neue" />
+
+        <!-- Add Student Button -->
+        <Button
+            android:id="@+id/buttonaddstudent"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_below="@id/textViewFormName"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/netflix_button"
+            android:text="Add Student"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:fontFamily="@font/bebas_neue" />
+
+        <!-- View Student Button -->
+        <Button
+            android:id="@+id/buttonViewstudent"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_below="@id/buttonaddstudent"
+            android:layout_marginTop="18dp"
+            android:background="@drawable/netflix_button"
+            android:text="View Student"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:fontFamily="@font/bebas_neue" />
+
+        <!-- Add Faculty Button -->
+        <Button
+            android:id="@+id/buttonaddfaculty"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_below="@id/buttonViewstudent"
+            android:layout_marginTop="18dp"
+            android:background="@drawable/netflix_button"
+            android:text="Add Faculty"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:fontFamily="@font/bebas_neue" />
+
+        <!-- View Faculty Button -->
+        <Button
+            android:id="@+id/buttonviewfaculty"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_below="@id/buttonaddfaculty"
+            android:layout_marginTop="18dp"
+            android:background="@drawable/netflix_button"
+            android:text="View Faculty"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:fontFamily="@font/bebas_neue" />
+
+        <!-- Attendance Per Student Button -->
+        <Button
+            android:id="@+id/attendancePerStudentButton"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_below="@id/buttonviewfaculty"
+            android:layout_marginTop="18dp"
+            android:background="@drawable/netflix_button"
+            android:text="Attendance Per Student"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:fontFamily="@font/bebas_neue" />
+
+        <!-- Logout Button -->
+        <Button
+            android:id="@+id/buttonlogout"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_below="@id/attendancePerStudentButton"
+            android:layout_marginTop="18dp"
+            android:background="@drawable/netflix_button"
+            android:text="Logout"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:fontFamily="@font/bebas_neue" />
+
+    </RelativeLayout>
+</ScrollView>

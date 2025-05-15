@@ -1,0 +1,6 @@
+android.support.v4.app.ActionBarDrawerToggle
+android.support.v4.app.ActionBarDrawerToggle$Delegate
+android.support.v4.app.ActionBarDrawerToggle$DelegateProvider
+android.support.v4.app.ActionBarDrawerToggle$SetIndicatorInfo
+android.support.v4.app.ActionBarDrawerToggle$SlideDrawable
+android.support.v4.widget.Space

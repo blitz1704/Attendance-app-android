@@ -1,0 +1,15 @@
+android.support.v4.view.AbsSavedState
+android.support.v4.view.AbsSavedState$1
+android.support.v4.view.AbsSavedState$2
+android.support.v4.widget.ExploreByTouchHelper
+android.support.v4.widget.ExploreByTouchHelper$1
+android.support.v4.widget.ExploreByTouchHelper$2
+android.support.v4.widget.ExploreByTouchHelper$MyNodeProvider
+android.support.v4.widget.FocusStrategy
+android.support.v4.widget.FocusStrategy$BoundsAdapter
+android.support.v4.widget.FocusStrategy$CollectionAdapter
+android.support.v4.widget.FocusStrategy$SequentialComparator
+android.support.v4.widget.ViewDragHelper
+android.support.v4.widget.ViewDragHelper$1
+android.support.v4.widget.ViewDragHelper$2
+android.support.v4.widget.ViewDragHelper$Callback

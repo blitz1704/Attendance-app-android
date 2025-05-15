@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/clg3"
+    android:padding="24dp">
+
+    <!-- Card-like container -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@drawable/card_background"
+        android:padding="24dp"
+        android:layout_centerInParent="true"
+        android:elevation="6dp"
+        android:layout_margin="16dp">
+
+        <!-- Title -->
+        <TextView
+            android:id="@+id/labelAttendance"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Attendance Summary"
+            android:textColor="#FFFFFF"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:fontFamily="@font/bebas_neue"
+            android:gravity="center"
+            android:padding="12dp" />
+
+        <!-- List of attendance records -->
+        <ListView
+            android:id="@+id/listAttendance"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:divider="@android:color/white"
+            android:dividerHeight="1dp"
+            android:layout_marginTop="12dp"
+            android:background="@android:color/transparent" />
+    </LinearLayout>
+</RelativeLayout>

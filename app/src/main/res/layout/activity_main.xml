@@ -1,0 +1,36 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    android:background="@drawable/clg3"
+    tools:context=".MainActivity">
+
+    <!-- Welcome Text -->
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="120dp"
+        android:text="WELCOME"
+        android:textColor="#FFFFFF"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        android:fontFamily="@font/bebas_neue" />
+
+    <!-- Start Button -->
+    <Button
+        android:id="@+id/buttonstart"
+        android:layout_width="383dp"
+        android:layout_height="64dp"
+        android:layout_below="@id/textView1"
+        android:layout_marginTop="185dp"
+        android:background="@drawable/netflix_button"
+        android:fontFamily="@font/bebas_neue"
+        android:text="Start"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+</RelativeLayout>

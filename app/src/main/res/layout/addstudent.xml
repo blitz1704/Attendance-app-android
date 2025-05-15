@@ -1,0 +1,197 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/clg3"
+    android:padding="20dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <!-- Form Title -->
+        <TextView
+            android:id="@+id/textViewFormName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="20dp"
+            android:text="Registration"
+            android:textColor="#FFFFFF"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:fontFamily="@font/bebas_neue" />
+
+        <!-- First Name -->
+        <TextView
+            android:id="@+id/textViewFirstName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="First Name"
+            android:textColor="#FFFFFF"
+            android:textSize="16sp"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/bebas_neue"/>
+
+        <EditText
+            android:id="@+id/editTextFirstName"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_below="@id/textViewFirstName"
+            android:background="@drawable/roundedtextview"
+            android:hint="Enter your first name"
+            android:inputType="textPersonName"
+            android:padding="10dp"
+            android:textColor="#FFFFFF"
+            android:textColorHint="#BBBBBB"
+            android:fontFamily="@font/bebas_neue"/>
+
+        <!-- Last Name -->
+        <TextView
+            android:id="@+id/textViewLastName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/editTextFirstName"
+            android:text="Last Name"
+            android:textColor="#FFFFFF"
+            android:textSize="16sp"
+            android:layout_marginTop="15dp"
+            android:fontFamily="@font/bebas_neue"/>
+
+        <EditText
+            android:id="@+id/editTextLastName"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_below="@id/textViewLastName"
+            android:background="@drawable/roundedtextview"
+            android:hint="Enter your last name"
+            android:inputType="textPersonName"
+            android:padding="10dp"
+            android:textColor="#FFFFFF"
+            android:textColorHint="#BBBBBB"
+            android:fontFamily="@font/bebas_neue"/>
+
+        <!-- Phone -->
+        <TextView
+            android:id="@+id/textViewPhone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/editTextLastName"
+            android:text="Contact"
+            android:textColor="#FFFFFF"
+            android:textSize="16sp"
+            android:layout_marginTop="15dp"
+            android:fontFamily="@font/bebas_neue"/>
+
+        <EditText
+            android:id="@+id/editTextPhone"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_below="@id/textViewPhone"
+            android:background="@drawable/roundedtextview"
+            android:hint="Enter your phone number"
+            android:inputType="phone"
+            android:padding="10dp"
+            android:textColor="#FFFFFF"
+            android:textColorHint="#BBBBBB"
+            android:fontFamily="@font/bebas_neue"/>
+
+        <!-- Address -->
+        <TextView
+            android:id="@+id/textViewUserName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/editTextPhone"
+            android:text="Address"
+            android:textColor="#FFFFFF"
+            android:textSize="16sp"
+            android:layout_marginTop="15dp"
+            android:fontFamily="@font/bebas_neue"/>
+
+        <EditText
+            android:id="@+id/editTextaddr"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_below="@id/textViewUserName"
+            android:background="@drawable/roundedtextview"
+            android:hint="Enter your address"
+            android:padding="10dp"
+            android:textColor="#FFFFFF"
+            android:textColorHint="#BBBBBB"
+            android:fontFamily="@font/bebas_neue"/>
+
+        <!-- Select Department -->
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/editTextaddr"
+            android:text="Select Department"
+            android:textColor="#FFFFFF"
+            android:textSize="16sp"
+            android:layout_marginTop="15dp"
+            android:fontFamily="@font/bebas_neue"/>
+
+        <Spinner
+            android:id="@+id/spinnerdept"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_below="@id/textView1"
+            android:background="@drawable/roundedtextview"
+            android:padding="5dp"/>
+
+        <!-- Select Year -->
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/spinnerdept"
+            android:text="Select Year"
+            android:textColor="#FFFFFF"
+            android:textSize="16sp"
+            android:layout_marginTop="15dp"
+            android:fontFamily="@font/bebas_neue"/>
+
+        <Spinner
+            android:id="@+id/spinneryear"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_below="@id/textView2"
+            android:background="@drawable/roundedtextview"
+            android:padding="5dp"/>
+
+        <!-- Submit & Cancel Buttons -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/spinneryear"
+            android:layout_marginTop="20dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/RegisterButton"
+                android:layout_width="140dp"
+                android:layout_height="50dp"
+                android:layout_marginEnd="20dp"
+                android:background="@drawable/netflix_button"
+                android:text="Submit"
+                android:textColor="#ffffff"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:fontFamily="@font/bebas_neue" />
+
+            <Button
+                android:id="@+id/Cancel_Button"
+                android:layout_width="140dp"
+                android:layout_height="50dp"
+                android:background="@drawable/netflix_button"
+                android:text="Cancel"
+                android:textColor="#ffffff"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:fontFamily="@font/bebas_neue"/>
+
+        </LinearLayout>
+
+    </RelativeLayout>
+</ScrollView>
